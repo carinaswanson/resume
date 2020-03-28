@@ -1,0 +1,212 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.back {
+  background-image: url(stars.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sections {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  margin: auto;
+  width: 70%;
+  position: absolute;
+  height: 20px;
+  width: 784px;
+  left: 50%;
+  margin-left: -392px;
+  top: 5%;
+  margin-top: -10px;
+}
+.page-links {
+  float: left;
+  position: relative;
+  margin: 15px;
+  margin-top: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(187, 184, 216);
+}
+.title {
+  font-family: "DM Serif Text", serif;
+  font-size: 48px;
+  color: white;
+  position: absolute;
+  height: 50px;
+  left: 50%;
+  top: 35%;
+  margin-top: -25px;
+}
+#home-title {
+  width: 660px;
+  margin-left: -330px;
+}
+#home-intro-div {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: -350px;
+  width: 350px;
+  height: 350px;
+  padding: 20px;
+  background-color: rgb(187, 184, 216);
+  z-index: 1;
+}
+#home-intro {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: white;
+  z-index: 2;
+}
+#home-intro-box {
+  position: absolute;
+  border: 5px solid rgb(187, 184, 216);
+  width: 380px;
+  height: 370px;
+  margin-left: 130px;
+  margin-bottom: 100px;
+  z-index: 0;
+}
+.img-container:hover .img {
+  opacity: 0.3;
+}
+.img-container:hover .img-text {
+  opacity: 1;
+}
+.img-text {
+  transition: 0.5s ease;
+  opacity: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: black;
+}
+#pace-pic {
+  position: absolute;
+  border-radius: 50%;
+  left: 550px;
+  margin-top: -90px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#dance-team {
+  position: absolute;
+  left: 620px;
+  margin-top: 20px;
+}
+#scarf-pic {
+  position: absolute;
+  border-radius: 50%;
+  left: 830px;
+  margin-top: -80px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#scarf {
+  position: absolute;
+  left: 900px;
+  margin-top: 30px;
+}
+#booth-pic {
+  position: absolute;
+  border-radius: 50%;
+  left: 700px;
+  margin-top: 160px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#booth {
+  position: absolute;
+  left: 778px;
+  margin-top: 269px;
+}
+#lyrical-pic {
+  position: absolute;
+  border-radius: 50%;
+  left: 1050px;
+  margin-top: 70px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#lyrical {
+  position: absolute;
+  left: 1095px;
+  margin-top: 180px;
+}
+#activities-title {
+  width: 390px;
+  margin-left: -195px;
+}
+#activities-intro-div {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  background-color: rgb(187, 184, 216);
+  width: 840px;
+}
+#activities-intro {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  color: white;
+}
+#activities-list-table {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+table {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+th {
+  font-weight: bold;
+  text-align: left;
+}
+th,
+td {
+  padding: 15px;
+}
+#leadership-title {
+  width: 450px;
+  margin-left: -225px;
+}
+.leadership-serv-div {
+  margin: 100px;
+}
+.leadership-serv-titles {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  color: rgb(187, 184, 216);
+}
+.bold {
+  font-weight: bold;
+  font-size: 36px;
+}
+.position-description {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+}
+#service-title {
+  width: 815px;
+  margin-left: -407.5px;
+}
+#creative-title {
+  width: 340px;
+  margin-left: -170px;
+}
+#interview {
+  margin-left: 100px;
+}
